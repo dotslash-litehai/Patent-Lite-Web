@@ -9,6 +9,26 @@ html {
   scroll-behavior: smooth;
 }
 
+.home {
+  	position: fixed;
+	float: right;
+	right: 70px;
+	margin-top: 500px;
+	height: 70px;
+	width: 70px;
+	border: 1px solid black;
+	background-color:#2B007C;
+	transition: 0.5s;
+	box-shadow: 1px 3px 10px black;
+	background-image: url('top.png');
+	z-index: 2000;
+	border-radius: 50%;
+}
+
+.home:hover {
+	height: 75px;
+	width: 75px;
+}
 .loader {
 	position: fixed;
 	left: 0px;
@@ -23,6 +43,7 @@ nav {
 	background-color: #2B007C;
 	position: fixed;
 	top: 0;
+	z-index: 10;
 	left: 0;
 	width: 100%;
 	height: 100px;
@@ -32,13 +53,6 @@ nav {
 	box-sizing: border-box;
 	transition: .3s;
 }
-
-/*nav.black {
-	background: rgba(0,0,0,0.8);
-	height: 100px;
-	padding: 10px 100px; 
-
-}*/
 
 nav .logo {
 	padding: 0;	/*22px 20px*/
@@ -110,6 +124,16 @@ section p {
 
 }
 
+.contentview {
+	position: absolute;
+	margin-top: 10%;
+	padding: 0px 12%;
+}
+
+p {
+	background-color: #F1F1F2;
+}
+
 section.sec1 {
 	width: 100%;
 	height: 100vh;
@@ -157,7 +181,7 @@ section.sec2 {
 	vertical-align: middle;
 	left: 0;
 	float: center;
-	color: blue;
+	color: rgb(50,70,100);
 	position: relative;
 	z-index: 100;
 	top:-300px;
