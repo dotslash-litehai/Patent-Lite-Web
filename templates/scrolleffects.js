@@ -12,7 +12,7 @@ $(window).scroll(function () {
     $('nav').on('mouseover',function(){
       $('nav').css("margin-top","0px");
     });
-      $('nav').css("margin-top","-96px");
+      $('nav').css("margin-top","-76px");
 
   }
   if(parseInt(num)<60){
