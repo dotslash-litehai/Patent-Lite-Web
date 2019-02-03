@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/*section {
+	position: static;
+	padding-top: 0;
+	margin-top: -100px;
+}*/
 .home {
   	position: fixed;
 	float: right;
@@ -58,8 +63,8 @@ nav .logo {
 	padding: 0;	/*22px 20px*/
 	height: 0;	/*80px*/
 	float: left;
-	color: silver;
-	opacity: 0.5;
+	color: white;
+	opacity: 0.8;
 	font-family: 'Righteous', cursive;
 	/*font-family: 'Roboto', sans-serif;*/
 	/*font-family: Quicksand;*/
@@ -119,9 +124,18 @@ nav ul li a.active {
 section p {
 	margin: 0;
 	padding: 10px;
-	color: silver;
+	color: grey;
 	font-size: 17px;
 
+}
+
+.blued {
+	color: blue;
+	font-size: 25px;
+}
+
+.bluedsmall {
+	color: blue;
 }
 
 .contentview {
@@ -132,6 +146,7 @@ section p {
 
 p {
 	background-color: #F1F1F2;
+	border-radius: 10px;
 }
 
 section.sec1 {
@@ -176,6 +191,10 @@ section.sec2 {
 	background-color: #2B007C;
 	text-align: center;
 	color: silver;
+}
+
+#takemethere {
+	color: skyblue;
 }
 
 #fourth{
