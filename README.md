@@ -2,7 +2,7 @@
 ### Web landing page for Dotslash 2019 project "Patent Lite". 
 ##### Team : Lite_Hai
 
-<h1><a href = "https://dotslash-litehai.github.io/Patent-Lite-Web/">Go to the site</a></h1>
+<h1><a href = "https://jrathod9.github.io/Patent-Lite-Web/">Go to the site</a></h1>
 
 ## What is Azure Blockchain Workbench?
 Azure Blockchain Workbench simplifies consortium blockchain network setup as a preconfigured solution with an Azure Resource Manager solution template. The template provides simplified deployment that deploys all components needed to run a consortium. Today, Blockchain Workbench currently supports <b> Ethereum</b>.
