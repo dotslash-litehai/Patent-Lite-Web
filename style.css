@@ -187,7 +187,7 @@ section.sec2 {
 }
 
 .footer {
-	height: 100px;
+	height: 120px;
 	background-color: #2B007C;
 	text-align: center;
 	color: silver;
@@ -199,6 +199,9 @@ section.sec2 {
 
 #fourth{
 	background-position: 100px 0px;
+}
+#fifth {
+	height: 50vh;
 }
 #typedbox {
 	font-size: 50px;
